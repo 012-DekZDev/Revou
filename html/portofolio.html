@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <img class="img-logo" src="../images/hgawfhkwohypdvdjkrnz-removebg-preview.png" alt="">
+        </div>
+        <div class="nav-div-2">
+            <ul>
+                <li><a href="#home-div">Home</a></li>
+                <li><a href="#profile-div">Our Profile</a></li>
+                <li><a href="#message-div">Message Us</a></li>
+                <li><a href="#project-div">Project</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <a href="contact.html">
+                <button class="contact-button"> Contact</button>
+            </a>
+        </div>
+    </nav>
+    <hr>
+    <div class="home-div" id="home-div">
+        <div class="char-pixel">
+            <img src="../images/_Idle 1.png" alt="">
+        </div>
+        <div class="sambutan-div">
+            <h1 id="sambutan" class="sambutan"></h1>
+            <div class="text-sambutan">
+                <p>Ini adalah website latihan yang keenam kalinya bikin </p>
+                <p>project, saya bisa menggunakan bahasa pemrograman js, c#, python,</p>
+                <p>dan c++ namun masih sangat sulit dipahami. Saya</p>
+                <p>dibidang WebDev dan GemDev.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="profile-div" id="profile-div">
+        <h1 class="display-flex-center">Profile</h1>
+        <h4 class="display-flex-center">WebDeveloper And GameDeveloper</h4>
+        <div class="profile-div-2">
+            <div class="profile-about">
+                <h2>ABOUT ME</h2>
+                <p>I'm a passionate game developer with a strong focus on creating engaging 2D games. I enjoy designing game mechanics, writing logic scripts, and building immersive experiences from unity. With a keen eye for game design, I love experimenting with ideas and turning concepts into playable worlds. Game development is not just a skill for me—it's also my hobby. I spend my free time learning, prototyping, and improving my craft to bring fun and creative projects to life.</p>
+            </div>
+            <div class="profile-img">
+                <img src="../images/Lulusan_Smp_Part2-removebg-preview - Copy.png" alt="" srcset="">
+            </div>
+            <div class="profile-details">
+                <h2>DETAILS</h2>
+                <h4>Name:</h4>
+                <p>Evan fadilah</p>
+                <h4>Age</h4>
+                <p>17 years</p>
+                <h4>Location</h4>
+                <p>Indonesia, Jawa Barat, Depok, Serua Bojongsari</p>
+                <h4>Job</h4>
+                <p>Game Development</p>
+                <div>
+                    <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="" class="logo-media"></a>
+                    <a href="https://www.tiktok.com/@vandsdek"><img src="../images/tik-tok.png" alt="" class="logo-media"></a>
+                    <a href="https://www.instagram.com/dermawan_evan_kaisar/"><img src="../images/social.png" alt="" class="logo-media"></a>
+                    <a href="https://www.youtube.com/@BEFFARKonten/videos"><img src="../images/youtube.png" alt="" class="logo-media"></a>
+                </div>
+        </div>
+        </div>
+    </div>
+    <hr>
+    <h1 id="message-div" class="title">Message Us</h1>
+    <div class="container">
+        <div class="form-box">
+            <div class="form-group">
+                <label>Nama</label>
+                <input type="text" id="nama">
+            </div>
+        <div class="form-group">
+            <label>Tanggal Lahir</label>
+            <input type="date" id="tanggal">
+        </div>
+        <div class="form-group">
+            <label>Jenis Kelamin</label>
+            <div class="radio-group">
+                <label>
+                <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki
+                </label>
+                <label>
+                <input type="radio" name="gender" value="Perempuan"> Perempuan
+            </label>
+            </div>
+        </div>
+    <div class="form-group">
+        <label>Pesan</label>
+        <textarea id="pesan" rows="4"></textarea>
+        </div>
+        <button onclick="tampilkanData()">Submit</button>
+    </div>
+    <div class="result-box">
+        <h1>Hasil</h1>
+        <p id="output"></p>
+    </div>
+</div>
+<hr>
+<div class="" id="project-div">
+    <div class="div-project">
+        <h1 class="div-contact">Project</h1>
+        <div>
+            <ul>
+                <li>
+                    <img src="../images/Screenshot 2025-09-19 113603.png" alt="" class="image-project">
+                    <a href="https://scratch.mit.edu/projects/1070971621/fullscreen/">Scratch</a>
+                </li>
+                <li>
+                    <img src="../images/Screenshot 2025-05-11 091635.png" alt="" class="image-project">
+                    <a href="">A Hero Feelings After The World End</a>
+                </li>
+                <li>
+                    <img src="../images/Screenshot 2025-09-19 114944.png" alt="" class="image-project">
+                    <a href="">DashBlade</a>
+                </li>
+                <li>
+                    <img src="../images/Screenshot 2025-09-19 114140.png" alt="" class="image-project">
+                    <a href="">Project Website</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<hr>
+<footer id="footer">
+    <h1>Footer</h1>
+    <div>
+        <h3>Pernah mengikuti acara resmi :</h3>
+        <div>
+            <img src="../images/download.jpg" alt="" class="logo-event">
+            <img src="../images/algonova.png" alt="" class="logo-event">
+            <img src="../images/images.jpg" alt="" class="logo-ggj logo-event">
+            <img src="../images/Revou-alasan.original.png" alt="" class="logo-revou logo-event">
+        </div>
+    </div>
+</footer>
+<script src="../js/style.js"></script>
+</body>
+</html>
